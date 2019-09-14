@@ -3,9 +3,9 @@
   <head>
       <meta charset="utf-8">
       <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/cover/">
-
+      <link rel="stylesheet" href="css\style.css">
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-      <title>CEN4010 - Homepage</title>
+      <title>CEN4010 - About</title>
 
     <style>
       .bd-placeholder-img {
@@ -33,16 +33,19 @@
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
 
       <header class="masthead mb-auto">
-        <div class="inner">
-          <h3 class="masthead-brand">Cover</h3>
-          <nav class="nav nav-masthead justify-content-center">
-            <a class="nav-link active" href="index.html">Home</a>
-            <a class="nav-link" href="about.html">About</a>
-          </nav>
+          <div class="masthead mb-auto d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3">
+        <h5 class="my-0 mr-md-auto font-weight-normal">Group 8</h5>
+        <nav class="my-2 my-md-0 mr-md-3">
+          <a class="p-2 text-dark" href="index.html">Home</a>
+          <a class="p-2 text-dark" href="about.html">About</a>
+
+
+        </nav>
         </div>
+		
       </header>
 
-      <main role="main">
+    <main role="main" >
           <div class="container" style="width: 100%; margin-top: 1.25rem;">
               <div class="row" style="margin-left: auto; margin-right: auto;">
                   <div class="blurb" style="margin-left: auto; margin-right: auto;">
@@ -53,9 +56,9 @@
           </div><!-- END OF CONTAINER-->
 
         <!-- START THE FEATURETTES -->
-        <hr class="featurette-divider">
+        <hr class="featurette-divider" >
 
-        <!-- First Biography -->
+       <!-- First Biography -->
         <div class="row featurette">
           <div class="col-md-7">
             <h2 class="featurette-heading">First biography. <span class="text-muted">Insert here.</span></h2>
@@ -66,7 +69,7 @@
           </div>
         </div>
 
-        <hr class="featurette-divider">
+        <hr class="featurette-divider" >
 
         <!-- William's Biography -->
         <div class="row featurette">
@@ -75,7 +78,7 @@
             <p class="lead">Sup! My name is William and I'm a Senior Computer Science major at FAU. I like eating, sleeping, breathing, and sometimes talking. </p>
           </div>
           <div class="col-md-5 order-md-1">
-            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" src="https://lh3.googleusercontent.com/2wKNXBqEpsBPEgpbmhXbeZp5tzQLNOkJid_qjmfnopo_on0qBcc0n5h-7ZccV8bQZ4h93n9sm7SAnKixxTfLD263VdcUP_zJ6nhDN11Dou653ZjnBCn2YtVdrehmqtrmYM8SyORReYRR4V4T8zMI4NrG0U7x5U5OeDtL-EGJKbIDU_IDIX4dj8JbYv2T-d9fba2vFYPBi1ZZPNOBkV9dlZxRitwq3jmef0dUHYlIhEzsVyhl7sh26HdxwFfYvIGms46pRTHSkXL7s5-4b1sUjo0Z_pVAmms8j47sBRpvLuWpK0Rz0NNMKDt0TK3K1u0UXJoSHHM94QidRyMG76QWq0HOofcC8aX_e6TLg5XnGDkbQ6WQZ6Qa3EhaVvWMwGCvtkmeJJSP5IWz10swP2mdY1qWqJqgx4l7rWP5UbxhCd5s6BD7n_t3ojeX28zbqwHtBlpzl9HVbRdqL8QJfPcbIWMd7GKxqu3Y3V6MyLofxxxlUYIlTgT9NEWcG8dYhSZATgUY3BQuHprmPDMmJqNkUHAbaAe4yWGaAUM7OCjqPv5ejZmHiyg1C1Qaj3EjykpU1-lSpBetsfOXEI7tbAyaqBJlCcLoIBKjiBZ_yakYho8Z3m4fcvqexeg-rNapkprAY2TJSisw8Ckt6EPfBVE8mEbJQFvUEcQGZhfg9iAAXj1uRM93XorDZ5g=w1416-h1884-no" data-holder-rendered="true" style="max-width: 500px; max-height: 500px;">
+            <img class="featurette-image img-fluid mx-auto"  data-src="holder.js/500x500/auto" style="max-height: 500px; " src="images/IMG_2787.jpg" data-holder-rendered="true">
           </div>
         </div>
 
@@ -89,8 +92,8 @@
             <p class="lead">I also have experience with C/C++ and Python. My main interests are in backend development. I look forward to expanding my skills and learning new languages to improve myself and to my further my abilities in this regard.</p>
             <p>I also like Friends (the show).</p>
           </div>
-          <div class="col-md-5">
-            <div class="image" id="image-3" style="height: 500px; width: 500px; background: url(images/IMG_3547.jpg); background-position: no-repeat no-repeat; background-size:contain; margin-right: auto; margin-left: auto;"></div>
+          <div class="col-md-5 order-md-1">
+            <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" style="max-height: 1000px " src="images/IMG_3547.jpg" data-holder-rendered="true">
           </div>
         </div>
 
@@ -110,19 +113,14 @@
 
         <!-- /END THE FEATURETTES -->
 
-        <hr class="featurette-divider">
-
+       <hr class="featurette-divider">
+	
       </div><!-- /.container -->
 
 
-      <!-- FOOTER -->
-      <footer class="container">
-        <p class="float-right"><a href="#">Back to top</a></p>
-        <p>&#169; 2017-2018</p>
-      </footer>
+      
+     
     </main>
-
-
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
